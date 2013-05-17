@@ -72,6 +72,7 @@ var config = [
         packed: false,
         packedName: "",
         clientPlugins: [
+            "ext/runner/runner",
             "ext/filesystem/filesystem",
             "ext/settings/settings",
             "ext/editors/editors",
@@ -108,7 +109,7 @@ var config = [
             "ext/runpanel/runpanel", //Add location rule
             "ext/debugger/debugger", //Add location rule
             "ext/dbg-node/dbg-node",
-            "ext/noderunner/noderunner", //Add location rule
+//            "ext/noderunner/noderunner", //Add location rule
             "ext/console/console",
             "ext/consolehints/consolehints",
             "ext/tabbehaviors/tabbehaviors",
